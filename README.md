@@ -1,30 +1,38 @@
-# InventoryERP - Minimal .NET 8 + EF Core (MySQL) Starter
+# InventoryERP - 企业级库存管理系统
 
-**What you received**
+## 📖 项目简介
 
-- Minimal two-project skeleton:
-  - `InventoryERP.API` - ASP.NET Core Web API
-  - `InventoryERP.Infrastructure` - EF Core DbContext, Entities, Repository & UnitOfWork
+InventoryERP 是一个基于 .NET 8 和 Entity Framework Core 构建的现代化库存管理系统后端 API。系统采用分层架构设计，实现了完整的用户认证、权限管理和库存管理功能，适用于中小型企业的库存管理需求。
 
-**How to run**
+## ✨ 核心特性
 
-1. Ensure .NET 8 SDK is installed on the server.
-2. Edit `InventoryERP.API/appsettings.json` if you need to change the connection string.
-   The current connection string was set to the value you provided.
-3. From the server shell:
+- 🔐 安全认证 : JWT 令牌认证 + RBAC 权限控制
+- 📦 库存管理 : 产品、供应商、采购订单管理
+- 🏗️ 现代架构 : .NET 8 + EF Core + MySQL
+- 📚 API 文档 : 集成 Swagger 自动文档生成
+- 🔒 企业安全 : HMAC-SHA512 密码加密
+- ⚡ 高性能 : 异步编程 + 数据库优化
 
-```bash
-cd /path/to/InventoryERP/InventoryERP.API
-dotnet restore
-dotnet run
-```
+## 🛠️ 技术栈
 
-4. API swagger UI will be available at `http://localhost:5000/swagger` (or check console for exact URL).
+### 后端框架
 
-**Notes**
+- .NET 8 - 最新的.NET 平台
+- ASP.NET Core Web API - RESTful API 框架
+- Entity Framework Core 8.0 - ORM 数据访问框架
 
-- This is a minimal demo skeleton. You should:
-  - Add authentication (JWT).
-  - Add proper validation, DTOs and AutoMapper.
-  - Replace EnsureCreated with EF Core migrations for production.
-  - Harden DB connection (limit allowed IPs, use TLS).
+### 数据库
+
+- MySQL - 主数据库
+- Pomelo.EntityFrameworkCore.MySql - MySQL EF Core 提供商
+
+### 认证与安全
+
+- JWT Bearer Token - 无状态身份认证
+- HMAC-SHA512 - 密码哈希算法
+- RBAC 权限模型 - 基于角色的访问控制
+
+### 开发工具
+
+- Swagger/OpenAPI - API 文档自动生成
+- 依赖注入 - 内置 IoC 容器
