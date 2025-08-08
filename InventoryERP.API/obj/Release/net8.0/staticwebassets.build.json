@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "L1uxOlhVgErLUA3vT8F/igdR7PLP1FYhlWzhQGL40Ho=",
+  "Source": "InventoryERP.API",
+  "BasePath": "_content/InventoryERP.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

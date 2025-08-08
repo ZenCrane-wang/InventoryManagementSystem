@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\InventoryERP.API",
+    "\\InventoryERP.Infrastructure\\Entities",
+    "\\InventoryERP.Infrastructure\\obj",
+    "\\InventoryERP.Infrastructure\\Repositories"
+  ],
+  "SelectedNode": "\\InventoryERP.API\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

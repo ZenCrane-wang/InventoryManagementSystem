@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InventoryERP.API</name>
+    </assembly>
+    <members>
+        <member name="T:InventoryERP.API.Controllers.AuthController">
+            <summary>
+            身份验证控制器
+            </summary>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.AuthController.Login(InventoryERP.Infrastructure.Models.LoginRequest)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="model">登录请求模型</param>
+            <returns>返回JWT令牌和用户信息</returns>
+            <response code="200">登录成功，返回JWT令牌</response>
+            <response code="400">请求参数错误</response>
+            <response code="401">用户名或密码错误</response>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.AuthController.Register(InventoryERP.Infrastructure.Models.RegisterRequest)">
+            <summary>
+            用户注册
+            </summary>
+            <param name="model">注册请求模型</param>
+            <returns>返回注册结果</returns>
+            <response code="200">注册成功</response>
+            <response code="400">请求参数错误或注册失败</response>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.AuthController.ChangePassword(InventoryERP.Infrastructure.Models.ChangePasswordRequest)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="model">修改密码请求模型</param>
+            <returns>返回修改结果</returns>
+            <response code="200">密码修改成功</response>
+            <response code="400">请求参数错误或当前密码错误</response>
+            <response code="401">未授权访问</response>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.AuthController.ResetPassword(System.Int32)">
+            <summary>
+            重置用户密码（管理员权限）
+            </summary>
+            <param name="id">用户ID</param>
+            <returns>返回新密码</returns>
+            <response code="200">密码重置成功</response>
+            <response code="400">请求参数错误</response>
+            <response code="401">未授权访问</response>
+            <response code="403">权限不足</response>
+        </member>
+        <member name="T:InventoryERP.API.Controllers.ProductsController">
+            <summary>
+            产品管理控制器
+            </summary>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.ProductsController.Get">
+            <summary>
+            获取所有产品列表
+            </summary>
+            <returns>返回产品列表</returns>
+            <response code="200">成功返回产品列表</response>
+            <response code="500">服务器内部错误</response>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.ProductsController.Get(System.Int32)">
+            <summary>
+            根据ID获取产品详情
+            </summary>
+            <param name="id">产品ID</param>
+            <returns>返回产品详情</returns>
+            <response code="200">成功返回产品详情</response>
+            <response code="404">产品不存在</response>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.ProductsController.Create(InventoryERP.Infrastructure.Entities.Product)">
+            <summary>
+            创建新产品
+            </summary>
+            <param name="p">产品信息</param>
+            <returns>返回创建的产品</returns>
+            <response code="201">产品创建成功</response>
+            <response code="400">请求参数错误</response>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.ProductsController.Update(System.Int32,InventoryERP.Infrastructure.Entities.Product)">
+            <summary>
+            更新产品信息
+            </summary>
+            <param name="id">产品ID</param>
+            <param name="p">更新的产品信息</param>
+            <returns>无内容返回</returns>
+            <response code="204">产品更新成功</response>
+            <response code="400">请求参数错误</response>
+            <response code="404">产品不存在</response>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.ProductsController.Delete(System.Int32)">
+            <summary>
+            删除产品
+            </summary>
+            <param name="id">产品ID</param>
+            <returns>无内容返回</returns>
+            <response code="204">产品删除成功</response>
+            <response code="404">产品不存在</response>
+        </member>
+        <member name="T:InventoryERP.API.Controllers.PurchaseOrdersController">
+            <summary>
+            采购订单管理控制器
+            </summary>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.PurchaseOrdersController.Get">
+            <summary>
+            获取所有采购订单列表
+            </summary>
+            <returns>返回采购订单列表</returns>
+            <response code="200">成功返回采购订单列表</response>
+            <response code="500">服务器内部错误</response>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.PurchaseOrdersController.Get(System.Int32)">
+            <summary>
+            根据ID获取采购订单详情（包含订单项）
+            </summary>
+            <param name="id">采购订单ID</param>
+            <returns>返回采购订单详情</returns>
+            <response code="200">成功返回采购订单详情</response>
+            <response code="404">采购订单不存在</response>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.PurchaseOrdersController.Create(InventoryERP.Infrastructure.Entities.PurchaseOrder)">
+            <summary>
+            创建新采购订单
+            </summary>
+            <param name="po">采购订单信息</param>
+            <returns>返回创建的采购订单</returns>
+            <response code="201">采购订单创建成功</response>
+            <response code="400">请求参数错误</response>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.PurchaseOrdersController.Receive(System.Int32)">
+            <summary>
+            接收采购订单货物（更新库存）
+            </summary>
+            <param name="id">采购订单ID</param>
+            <returns>返回接收结果</returns>
+            <response code="200">货物接收成功</response>
+            <response code="404">采购订单不存在</response>
+            <response code="500">服务器内部错误</response>
+        </member>
+        <member name="T:InventoryERP.API.Controllers.SuppliersController">
+            <summary>
+            供应商管理控制器
+            </summary>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.SuppliersController.Get">
+            <summary>
+            获取所有供应商列表
+            </summary>
+            <returns>返回供应商列表</returns>
+            <response code="200">成功返回供应商列表</response>
+            <response code="500">服务器内部错误</response>
+        </member>
+        <member name="M:InventoryERP.API.Controllers.SuppliersController.Create(InventoryERP.Infrastructure.Entities.Supplier)">
+            <summary>
+            创建新供应商
+            </summary>
+            <param name="s">供应商信息</param>
+            <returns>返回创建的供应商</returns>
+            <response code="201">供应商创建成功</response>
+            <response code="400">请求参数错误</response>
+        </member>
+    </members>
+</doc>
