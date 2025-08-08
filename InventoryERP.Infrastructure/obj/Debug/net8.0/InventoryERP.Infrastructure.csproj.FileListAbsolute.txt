@@ -10,3 +10,16 @@ D:\HuaweiMoveData\Users\wslzd\Desktop\InventoryERP\InventoryERP.Infrastructure\o
 D:\HuaweiMoveData\Users\wslzd\Desktop\InventoryERP\InventoryERP.Infrastructure\obj\Debug\net8.0\refint\InventoryERP.Infrastructure.dll
 D:\HuaweiMoveData\Users\wslzd\Desktop\InventoryERP\InventoryERP.Infrastructure\obj\Debug\net8.0\InventoryERP.Infrastructure.pdb
 D:\HuaweiMoveData\Users\wslzd\Desktop\InventoryERP\InventoryERP.Infrastructure\obj\Debug\net8.0\ref\InventoryERP.Infrastructure.dll
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\bin\Debug\net8.0\InventoryERP.Infrastructure.deps.json
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\bin\Debug\net8.0\InventoryERP.Infrastructure.dll
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\bin\Debug\net8.0\InventoryERP.Infrastructure.pdb
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\obj\Debug\net8.0\InventoryERP.Infrastructure.csproj.AssemblyReference.cache
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\obj\Debug\net8.0\InventoryERP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\obj\Debug\net8.0\InventoryERP.Infrastructure.AssemblyInfoInputs.cache
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\obj\Debug\net8.0\InventoryERP.Infrastructure.AssemblyInfo.cs
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\obj\Debug\net8.0\InventoryERP.Infrastructure.csproj.CoreCompileInputs.cache
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\obj\Debug\net8.0\InventoryERP.Infrastructure.sourcelink.json
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\obj\Debug\net8.0\InventoryERP.Infrastructure.dll
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\obj\Debug\net8.0\refint\InventoryERP.Infrastructure.dll
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\obj\Debug\net8.0\InventoryERP.Infrastructure.pdb
+D:\HuaweiMoveData\Users\wslzd\Desktop\Inventory management-back-end\InventoryERP_end\InventoryERP.Infrastructure\obj\Debug\net8.0\ref\InventoryERP.Infrastructure.dll

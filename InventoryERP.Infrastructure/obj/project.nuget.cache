@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JN5CbwjsjbE3V3SKMWDoXhyXTgJLJG9zmCBbNILM82HIg+aiybRdOzimzvuoIeHx/bd2S/HIgfH5utctYxdBMQ==",
+  "dgSpecHash": "VoKYzdfQH8/GSdzHwidfUPZ02XqIzRUhOlzAxJy/m8V5OB7hej7UvVRxu+kQt7E0ipHyTuN2/JaQEtAuXQry7g==",
   "success": true,
-  "projectFilePath": "D:\\HuaweiMoveData\\Users\\wslzd\\Desktop\\InventoryERP\\InventoryERP.Infrastructure\\InventoryERP.Infrastructure.csproj",
+  "projectFilePath": "D:\\HuaweiMoveData\\Users\\wslzd\\Desktop\\Inventory management-back-end\\InventoryERP_end\\InventoryERP.Infrastructure\\InventoryERP.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wslzd\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.13\\microsoft.entityframeworkcore.8.0.13.nupkg.sha512",
     "C:\\Users\\wslzd\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.13\\microsoft.entityframeworkcore.abstractions.8.0.13.nupkg.sha512",

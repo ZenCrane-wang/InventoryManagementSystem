@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vkVGQUmsPG5tT70tfF+mfiQnNH93bxlrV5T0n+koO5hG19cPubqhuuvvOH5wdFxHu3jukIel5nMq43tcLQ1Z6Q==",
+  "dgSpecHash": "qrKfsnNfryLmjOBaLWuT7vhKjsPzoUyqFXZi6/i9UCn/FjRUTCH2ljkf3Trf4cnf6P/6roXiDfHYraC2VEyLQg==",
   "success": true,
-  "projectFilePath": "D:\\HuaweiMoveData\\Users\\wslzd\\Desktop\\InventoryERP\\InventoryERP.API\\InventoryERP.API.csproj",
+  "projectFilePath": "D:\\HuaweiMoveData\\Users\\wslzd\\Desktop\\Inventory management-back-end\\InventoryERP_end\\InventoryERP.API\\InventoryERP.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wslzd\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\wslzd\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
